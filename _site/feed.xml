@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-09T01:13:17+01:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Web Audio Conference</title><link href="http://localhost:4000/2022/05/21/Web-Audio-Conference.html" rel="alternate" type="text/html" title="Web Audio Conference" /><published>2022-05-21T00:00:00+02:00</published><updated>2022-05-21T00:00:00+02:00</updated><id>http://localhost:4000/2022/05/21/Web-Audio-Conference</id><content type="html" xml:base="http://localhost:4000/2022/05/21/Web-Audio-Conference.html"><![CDATA[<p>An apple is a sweet, edible fruit produced by an apple tree.
+ <!--more-->
+Apple trees are cultivated worldwide, and are the most widely grown species in
+the genus Malus. The tree originated in Central Asia, where its wild ancestor,
+Malus sieversii, is still found today. Apples have been grown for thousands of
+years in Asia and Europe, and were brought to North America by European
+colonists.</p>]]></content><author><name></name></author><category term="Research" /><category term="Projects" /><summary type="html"><![CDATA[An apple is a sweet, edible fruit produced by an apple tree.]]></summary></entry><entry><title type="html">Sonar+d 2020 Workshop</title><link href="http://localhost:4000/2022/04/11/Sonar+D-2020-Workshop.html" rel="alternate" type="text/html" title="Sonar+d 2020 Workshop" /><published>2022-04-11T00:00:00+02:00</published><updated>2022-04-11T00:00:00+02:00</updated><id>http://localhost:4000/2022/04/11/Sonar+D-2020-Workshop</id><content type="html" xml:base="http://localhost:4000/2022/04/11/Sonar+D-2020-Workshop.html"><![CDATA[<p>I had the opportunity to present a workshop in Sónar+D CCCB 2020 about how to use Essentia.js to
+automatically detect quality problems in a music collection.
+<!--more-->
+Essentia.js is the port into web technologies of the C++ open-source library Essentia developed and
+maintained by the Music Technology Group (MTG) of the Universitat Pompeu Fabra in Barcelona.</p>
+
+<div class="embed-container">
+	<iframe src="https://www.youtube.com/embed/NR9-hVLs4b8" width="700" height="480" frameborder="0" allowfullscreen="true">
+	</iframe>
+</div>
+
+<!--https://github.com/nathancy/jekyll-embed-video-->
+
+<p>In general, producers, djs, and audio engineers have to manually control if the audios they work
+with have any issues. With this workshop, Sonosuite will show how the open-source Essentia library
+can help detect automatically any problems that might exist in the audio tracks. They will also
+learn how to control the final results of their work to adequately distribute it to all major
+streaming platforms and digital shops.</p>
+
+<div class="github-card" data-user="ljoglar" data-repo="workshop_sonar_2020_audio_problems"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+
+<!--https://github.com/lepture/github-cards-->
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">On the 18-19th Sep.<a href="https://twitter.com/luisjoglar?ref_src=twsrc%5Etfw">@luisjoglar</a> will be showing during the <a href="https://twitter.com/sonosuite?ref_src=twsrc%5Etfw">@sonosuite</a>&#39;s session at <a href="https://twitter.com/sonarplusd?ref_src=twsrc%5Etfw">@sonarplusd</a> how to automatically detect audio problems in your music collection using the <a href="https://twitter.com/Essentia_MTG?ref_src=twsrc%5Etfw">@Essentia_MTG</a> library &amp; web techs like Web Audio API and Canvas API. REGISTER NOW <a href="https://t.co/4QzS8GSYyf">https://t.co/4QzS8GSYyf</a> <a href="https://t.co/V4ye7zfTsY">pic.twitter.com/V4ye7zfTsY</a></p>&mdash; SonoSuite (@sonosuite) <a href="https://twitter.com/sonosuite/status/1306885357108187138?ref_src=twsrc%5Etfw">September 18, 2020</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name></name></author><category term="Coding" /><category term="Research" /><summary type="html"><![CDATA[I had the opportunity to present a workshop in Sónar+D CCCB 2020 about how to use Essentia.js to automatically detect quality problems in a music collection.]]></summary></entry><entry><title type="html">Apples</title><link href="http://localhost:4000/2018/08/21/apples.html" rel="alternate" type="text/html" title="Apples" /><published>2018-08-21T00:00:00+02:00</published><updated>2018-08-21T00:00:00+02:00</updated><id>http://localhost:4000/2018/08/21/apples</id><content type="html" xml:base="http://localhost:4000/2018/08/21/apples.html"><![CDATA[<p>An apple is a sweet, edible fruit produced by an apple tree.</p>
+
+<p>Apple trees are cultivated worldwide, and are the most widely grown species in
+the genus Malus. The tree originated in Central Asia, where its wild ancestor,
+Malus sieversii, is still found today. Apples have been grown for thousands of
+years in Asia and Europe, and were brought to North America by European
+colonists.</p>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[An apple is a sweet, edible fruit produced by an apple tree.]]></summary></entry><entry><title type="html">Bananas</title><link href="http://localhost:4000/2018/08/20/bananas.html" rel="alternate" type="text/html" title="Bananas" /><published>2018-08-20T00:00:00+02:00</published><updated>2018-08-20T00:00:00+02:00</updated><id>http://localhost:4000/2018/08/20/bananas</id><content type="html" xml:base="http://localhost:4000/2018/08/20/bananas.html"><![CDATA[<p>A banana is an edible fruit – botanically a berry – produced by several kinds
+of large herbaceous flowering plants in the genus Musa.</p>
+
+<p>In some countries, bananas used for cooking may be called “plantains”,
+distinguishing them from dessert bananas. The fruit is variable in size, color,
+and firmness, but is usually elongated and curved, with soft flesh rich in
+starch covered with a rind, which may be green, yellow, red, purple, or brown
+when ripe.</p>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.]]></summary></entry></feed>

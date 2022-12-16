@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="icon" href="/assets/images/logoBassClef100_01.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Work+Sans:100,200,300,400,500,600,700,800,900" type="text/css" media="all">
+  <script src="https://kit.fontawesome.com/36530b0d0d.js" crossorigin="anonymous"></script>
+  {% if jekyll.environment == "production" %}
+  <script src="my-analytics-script.js"></script>
+  {% endif %}
+  {% feed_meta %}
+  {% seo %}
+</head>
+<body>
+<div class="header">
+  {% include header.html %}
+</div>
+<div class="contentWrapper">
+  {{ content }}
+  {% include footer.html %}
+</div>
+</body>
+</html>

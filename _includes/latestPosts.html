@@ -1,0 +1,52 @@
+
+<div class="containerWrapper">
+	<div class="container latestPosts">
+		<h2 class="centerText">
+			Latest Posts
+		</h2>
+		<div class="colContainer">
+		{% for post in site.posts %}
+			<div class="col4">
+				<article id="post-175" class="postThumb">
+					<div class="entryThumbnail">
+						<a href={{ post.url }}>
+							<img alt="{{ post.alt }}"  src={{ post.thumbnail }} />
+						</a>
+					</div>
+					<div class="entryContent">
+						<div class="entryTags">
+							<i class="fa fa-tag" aria-hidden="true"></i>
+							<span class="postTags">
+								{% for tag in post.tags %}
+								<a href="" rel="category tag">{{tag}}</a>
+								{% endfor %}
+							</span>
+						</div>
+						<h3 class="entryTitle">
+							<a href={{ post.url }}>
+								{% if post.ftitle %}
+								{{ post.ftitle }}
+								{% else %}
+								{{ post.title }}
+								{% endif %}
+							</a>
+						</h3>
+						<div class="entryExcerpt">
+							{{ post.excerpt | slice: 0, 175 }}
+						</div>
+						<div class="entryDate">
+	<!--							<a href="{{ post.url }}">-->
+								<i class="fa-regular fa-calendar"></i>
+								<span>{{ post.date | date: "%d %B, %Y" }}</span>
+	<!--							</a>-->
+						</div>
+					</div><!-- .entry-content -->
+				</article><!-- #post-## -->
+			</div>
+		{% endfor %}
+		</div>
+	</div>
+</div>
+
+<!--https://mmistakes.github.io/minimal-mistakes/jekyll/post-exclude-search/-->
+<!--https://github.com/mmistakes/minimal-mistakes/tree/master/_layouts-->

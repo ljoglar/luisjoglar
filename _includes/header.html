@@ -1,0 +1,13 @@
+{% assign title = site.data.info.header.title %}
+{% assign subtitle = site.data.info.header.subtitle %}
+<div class="headerWrapper">
+    <div class="logo">
+        <a href="/" class="custom-logo-link" rel="home" aria-current="page">
+            <img class="logoImg" src="/assets/images/luisJoglar400White.png" alt="luis joglar logo">
+        </a>
+    </div>
+    <div class="container headerTitle">
+        <h1>{{ title }}</h1>
+        <p>{{ subtitle | upcase }}</p>
+    </div>
+</div>

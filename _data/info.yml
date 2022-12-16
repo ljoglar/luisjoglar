@@ -1,0 +1,21 @@
+header:
+    title: Luis Joglar Ongay
+    subtitle: PhD Student and Audio Scientist
+timeline:
+    - place: MTG (UPF)
+      time: 2021 - Present
+      title: Industrial Doctorate
+      info: Collaboration between the MTG (UPF) and SonoSuite to study applications of Music Information Research and Machine Learning techniques applied to the Digital Music Distribution Industry.
+    - place: Music Technology Group
+      time: 2018 - 2020
+      title: Master’s Degree in Sound and Music Computing
+      info: During this master’s degree I learn about Audio Signal Processing, Machine Learning, Music Perception and Cognition, Semantic Technologies and Interactive Systems as well as research methodologies to innovate in the fields of sound and music technologies.
+    - place: SonoSuite
+      time: 2017 - 2022
+      title: Lead R&D and Software Engineer
+      info: I started working as a full-stack web developer and software engineer building my way up to a new role in the company according to my interests and formation, Audio Engineer in a Research and Development department.
+    - place: University of Huddersfield
+      time: 2013 - 2017
+      title: B.Sc. Music Technology and Audio Systems
+      info: Audio Electronics, Programming for Music Technology (Audio Plugins and Web Audio), Computer Composition and Sound Design, Recording, Live Music Production, Microprocessors, Acoustics and Psychoacoustics.
+            Research Assistant under the supervision of Dr. Jonathan Wakefield and Mr. Christopher Dewey.

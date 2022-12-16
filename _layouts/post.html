@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div class="containerWrapper">
+    <div class="container posts">
+        <h1>{{ page.ftitle }}</h1>
+        <i class="fa-regular fa-calendar-check"></i>
+        <span>{{ page.date | date: "%d %B, %Y" }}</span>
+        {{ content }}
+    </div>
+</div>

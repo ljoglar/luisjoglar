@@ -1,0 +1,28 @@
+<div class="containerWrapper at-gray-bg">
+	<div class="container">
+		<h2 class="centerText">
+			My Path
+		</h2>
+		<div class="main-timeline">
+			{% for element in site.data.info.timeline %}
+				<div class="timeline">
+					<div class="icon"></div>
+					<div class="date-content">
+						<div class="date-outer">
+							<span class="date">
+								<span class="month">{{ element.place }}</span>
+								<span class="year">{{ element.time }}</span>
+							</span>
+						</div>
+					</div>
+					<div class="timeline-content">
+						<h5 class="title">{{ element.title }}</h5>
+						<p class="description">
+							{{ element.info }}
+						</p>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
