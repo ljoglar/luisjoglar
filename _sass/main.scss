@@ -1,3 +1,7 @@
+html{
+  font-size: 18px;
+}
+
 img[alt=""],
 img:not([alt]){
   border: 5px dashed red;
@@ -9,17 +13,19 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
-.container {
-  width: 1170px;
-  margin: auto;
-}
+@media only screen and (min-width: 1170px) {
+  .container {
+    width: 1200px;
+    margin: auto;
+  }
 
-.container.posts{
-  width: 870px;
-}
-.containerWrapper{
-  width: 100%;
-  padding: 25px 0;
+  .container.posts{
+    width: 870px;
+  }
+  .containerWrapper{
+    width: 100%;
+    padding: 25px 0;
+  }
 }
 
 .current {
@@ -44,12 +50,23 @@ body{
   display: flex;
 }
 
-.col3 {
-  width: 33.33333333%;
+.col3{
+  max-width: 32%
 }
 
 .col4 {
   width: 25%;
+}
+
+@media only screen and (max-width: 991px) {
+  .colContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .col4 {
+    width: 90%;
+    margin: auto;
+  }
 }
 
 .centered{
@@ -77,10 +94,9 @@ body{
 }
 
 .contentWrapper h4{
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 1.2rem;
+  font-weight: 400;
   line-height: 1.6;
-  color: #666;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -93,10 +109,9 @@ body{
 }
 
 .contentWrapper p{
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 300;
   line-height: 24px;
-  color: #666;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -112,8 +127,8 @@ body{
 }
 
 .headerWrapper p{
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
   letter-spacing: 7px;
   line-height: 24px;
   font-family: 'Open Sans', sans-serif;
@@ -139,22 +154,65 @@ body{
 
 .aboutMe{
   font-family: 'Open Sans', sans-serif;
+  position: relative;
+  max-width: 90%;
+  margin: auto;
+  // display: flex;
+  // flex-wrap: wrap;
 }
 
 .aboutMeImage{
-  width: 50%;
-  float: left;
-  top: -100px;
-  left: 125px;
+  top: -50px;
   position: relative;
+  // display: inline-block;
+  // background: url('your-image-url.jpg') no-repeat center center;
+  // background-size: cover;
+  // width: 300px; /* Adjust as needed */
+  // height: 200px; /* Adjust as needed */
+  // padding: 10px; /* Adjust as needed */
+  // border: 10px solid transparent; /* Adjust border width as needed */
 }
 
+// .aboutMeImage::before {
+//  content: '';
+//  position: absolute;
+//  top: -10px; /* Adjust based on border width */
+//  right: -10px; /* Adjust based on border width */
+//  bottom: -10px; /* Adjust based on border width */
+//  left: -10px; /* Adjust based on border width */
+//  z-index: -1;
+//  background: inherit;
+//  background-clip: border-box;
+//  filter: blur(10px); /* Adjust blur amount as needed */
+//  clip-path: inset(0);
+// }
+
+.aboutMeImage img{
+  float: right;
+  margin: 0 0 0 60px;
+}
+
+
 .aboutMeContent{
-  margin: 50px auto;
+  // max-width: 60%;
+  // position: relative;
+  // padding: 0 100px;
+}
+
+@media only screen and (max-width: 775px) {
+  .aboutMeImage{
+    display: flex;
+    justify-content: center;
+  }
+  .aboutMeImage img{
+    float: none;
+    margin: 0;
+  }
 }
 
 .bassBanner{
-  background-image: url('/assets/images/yoBajo_cut_scaled.png');
+/*  background-image: url('/assets/images/yoBajo_cut_scaled.png');*/
+  background-image: url('/assets/images/yoBajo_cut_scaled_color.png');
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
   height: 400px;
   background-attachment: fixed;
@@ -177,10 +235,15 @@ body{
 .bassBanner p{
   max-width: 1000px;
   margin: auto;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
   color: whitesmoke;
+}
+
+.bassBannerCallToAction{
+  margin: auto;
+  padding: 50px 0 0 0;
 }
 
 .latestPosts{
@@ -229,11 +292,35 @@ body{
 
 .postThumb .entryContent {
   margin-top: 0;
-  padding: 0 15px;
+  padding: 15px;
   background: #F3F8FC;
   border: 1px solid #e1eef9;
   height: 60%;
   position: relative;
+}
+
+.postThumb .entryContent .entryTitle{
+margin: 12px 0 5px 0;
+  line-height: 1rem;
+}
+
+.postThumb .entryContent p{
+  margin-top: 0px;
+  font-family: 'Open Sans', sans-serif;
+
+/*  overflow: hidden;*/
+/*  text-overflow: ellipsis;*/
+/*  white-space: nowrap;*/
+/*  --max-lines: 3;*/
+/*  position: relative;*/
+/*  max-height: calc(var(--lh) * var(--max-lines));*/
+/*  overflow: hidden;*/
+
+
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  display: -webkit-box;
 }
 
 .postThumb .entryContent .date{
@@ -255,7 +342,7 @@ body{
 
 .postThumb .entryDate{
   position: absolute;
-  bottom: 10px;
+  bottom: 35px;
 }
 
 .postThumb .entryDate span,

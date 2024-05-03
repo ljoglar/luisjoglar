@@ -1,0 +1,61 @@
+<!-- {% assign types = site.publications | map: 'type' | join: ',' | split: ',' | uniq %} -->
+{% assign types = "peer_reviewed,thesis,other" | split: ',' %}
+
+
+<div class="containerWrapper publications">
+  <div class="container latestPosts">
+    <h2 class="centerText">
+      Publications
+    </h2>
+    {% for type in types %}
+      <h3>
+        {% assign type_a = type | split: '_' %}
+        {% capture capitalized_words %}
+         {% for word in type_a %}
+            {{ word | capitalize}}
+         {% endfor %}{% endcapture %}
+        {{ capitalized_words | join: " "}}
+      </h3>
+      <div class="">
+        {% assign publications = site.publications | where: "type", type | reverse %}
+        {% for publication in publications %}
+          <div class="blog-card__info">
+            <i class="item fa-solid {{ publication.icon }}"></i>
+            <div class="itemContent">
+              <p>
+                {{ publication.month }} {{ publication.year }},
+                <a target="_blank" href="{{ publication.link }}" class="icon-link mr-3">
+                  {{ publication.title }}
+                </a>
+              </p>
+              <p>{{ publication.author }}</p>
+              <p>{{ publication.journalTitle }} {{ publication.journalInfo }}</p>
+            </div>
+            <div class="itemButtons">
+              {% if publication.pdf %}
+                <a target="_blank" href="{{ publication.pdf }}" class="btn btn--with-icon">
+                  <i class="btn-icon fa-solid fa-file-pdf"></i>
+                </a>
+              {% endif %}
+              {% if publication.image %}
+                <a target="_blank" href="{{ publication.image }}" class="btn btn--with-icon">
+                  <i class="btn-icon fa-solid fa-image"></i>
+                </a>
+              {% endif %}
+              {% if publication.videoLink %}
+                <a target="_blank" href="{{ publication.videoLink }}" class="btn btn--with-icon">
+                  <i class="btn-icon fa fa-youtube-play"></i>
+                </a>
+              {% endif %}
+              {% if publication.code %}
+                <a target="_blank" href="{{ publication.code }}" class="btn btn--with-icon">
+                  <i class="btn-icon fa fa-brands fa-github"></i>
+                </a>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+</div>

@@ -1,13 +1,14 @@
+collections_dir: my_collections
 collections:
-  authors:
+  publications:
     output: true
+    permalink: /:name
+    sort_by: date
+  musics:
+    output: true
+    permalink: /:name
 
 defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
   - scope:
       path: ""
       type: "posts"

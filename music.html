@@ -1,0 +1,28 @@
+---
+title: Music
+---
+<h2 class="centerText"> Music </h2>
+
+<div class="containerWrapper">
+<div class="container music">
+    {% for music in site.musics %}
+        <article class="col3">
+            <div class="article-wrapper">
+                <div id="article-embedd">
+                    {{ music.iframe }}
+                    {{ music.playlist }}
+                </div>
+                <div class="article-body">
+                    <h2>{{ music.title }}</h2>
+                    <p>
+                        {{ music.content }}
+                    </p>
+                </div>
+            </div>
+        </article>
+    {% endfor %}
+</div>
+</div>
+
+<!--         {% if music.type == 'video' %}
+        {% endif %} -->
