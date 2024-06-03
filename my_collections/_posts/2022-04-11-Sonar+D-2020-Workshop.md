@@ -1,7 +1,7 @@
 ---
 excerpt_separator: <!--more-->
 ftitle: Sónar+D CCCB 2020 – Essentia.js Workshop
-tags: Coding Research
+tags: Code Research
 thumbnail: /assets/images/blog/cccb.png
 alt: screenshot from the workshop showing the luis explaining some essentia.js code
 youtubeId: NR9-hVLs4b8
