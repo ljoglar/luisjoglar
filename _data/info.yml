@@ -1,19 +1,23 @@
 header:
     title: Luis Joglar Ongay
-    subtitle: Audio Technology Specialist and Doctoral Student
+    subtitle: R&D Audio Technology Specialist and Doctoral Student
 timeline:
-    - place: MTG (UPF)
-      time: 2021 - Present
-      title: Industrial Doctorate
-      info: Collaboration between the MTG (UPF) and SonoSuite to study applications of Music Information Research and Machine Learning techniques applied to the Digital Music Distribution Industry.
+    - place: HER La Salle - URL
+      time: 2023 - Present
+      title: Doctorate
+      info: Researching identification of vocal biomarkers for mental health applications through speech processing techniques and Deep Learning, aiming for explainable and interpretable models.
     - place: Music Technology Group
-      time: 2018 - 2020
-      title: Master’s Degree in Sound and Music Computing
-      info: During this master’s degree I learn about Audio Signal Processing, Machine Learning, Music Perception and Cognition, Semantic Technologies and Interactive Systems as well as research methodologies to innovate in the fields of sound and music technologies.
+      time: 2018 - 2022
+      title: Master’s Degree and Research Sound and Music Computing
+      info: During my time at the MTG I collaborated in the development and evaluation of music of algorithms, inlcuded in 
+        the open-source library Essentia, for audio quality control and artifacts detection, publishing the results in the
+        146th AES Convention in Dublin in 2019. I also worked on the development, evaluation and publication of essentia.js
+        the open-source software JavaScript library for music and audio analysis on the web, in 2021.
     - place: SonoSuite
       time: 2017 - 2022
       title: Lead R&D and Software Engineer
-      info: I started working as a full-stack web developer and software engineer building my way up to a new role in the company according to my interests and formation, Audio Engineer in a Research and Development department.
+      info: I started working as a full-stack web developer and software engineer building my way up to a new role in the
+        company according to my interests and education, working on Research and Development for audio and music projects.
     - place: University of Huddersfield
       time: 2013 - 2017
       title: B.Sc. Music Technology and Audio Systems
